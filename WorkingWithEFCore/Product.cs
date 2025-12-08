@@ -14,7 +14,7 @@ public class Product {
     [Column("UnitPrice", TypeName="money")]
     public decimal Cost { get; set; }
 
-    [Column("UnitInStock")]
+    [Column("UnitsInStock")]
     public short Stock { get; set; }
 
     public bool Discontinued { get; set; }
