@@ -10,11 +10,11 @@ public class Category
     [Column (TypeName ="ntext")]
     public string Description { get; set; }
 
-    public virtual ICollection<Product> Products { get; set; }  
+    public virtual ICollection<Product> Products { get; set; }
 
     public Category()
     {
-        Products = new HashSet<Product>();  
+        Products = new HashSet<Product>();
     }
 
 }
